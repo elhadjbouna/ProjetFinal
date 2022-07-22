@@ -7,9 +7,9 @@ function handleClick(plantName) {
 
 function PlantItem({ title, category, image, price }) {
 	return (
-		<li className='lmj-plant-item' onClick={() => handleClick}>
-			<span className='lmj-plant-item-price'>{price}€</span>
-			<img className='lmj-plant-item-cover' src={image} alt={`${title} cover`} />
+		<li className='lmj-article-item' onClick={() => handleClick}>
+			<span className='lmj-article-item-price'>{price}€</span>
+			<img className='lmj-article-item-cover' src={image} alt={`${title} cover`} />
 			<span className="debordement">{title}</span>
 			
 		</li>

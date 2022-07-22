@@ -37,8 +37,9 @@ function App() {
 				<h1 className='lmj-title'>WELCOME TO MY HOOD</h1>
 			</Banner>
 			<div className='lmj-layout-inner'>
-				<Cart cart={cart} updateCart={updateCart} />
+				
 				<ShoppingList cart={cart} updateCart={updateCart} data={donnees}/>
+				<Cart cart={cart} updateCart={updateCart} />
 			</div>
 			<Footer />
 		</div>

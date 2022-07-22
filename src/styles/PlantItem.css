@@ -1,11 +1,11 @@
-.lmj-plant-item-cover {
+.lmj-article-item-cover {
 	height: 250px;
 	width: 250px;
 	border-radius: 20px;
 	object-fit: cover;
 }
 
-.lmj-plant-item {
+.lmj-article-item {
 	margin: 10px;
 	display: flex;
 	align-items: flex-start;
@@ -17,7 +17,7 @@
 
 }
 
-.lmj-plant-item-price {
+.lmj-article-item-price {
 	position: absolute;
 	border-radius: 20px 20px 20px 0;
 	background-color: rgb(5, 0, 0);

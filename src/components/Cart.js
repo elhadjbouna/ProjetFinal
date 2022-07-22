@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import '../styles/Cart.css'
 
 function Cart({ cart, updateCart }) {
+	// LE PANIER
 	const [isOpen, setIsOpen] = useState(true)
 	const total = cart.reduce(
 		(acc, plantType) => acc + plantType.amount * plantType.price,
@@ -20,7 +21,7 @@ function Cart({ cart, updateCart }) {
 				Fermer
 			</button>
 			{cart.length > 0 ? (
-				<div>
+				<div className="fix">
 					<h2>Panier</h2>
 					<ul>
 						{cart.map(({ name, price, amount }, index) => (

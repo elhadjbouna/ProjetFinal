@@ -33,8 +33,8 @@ function App() {
 	return (
 		<div>
 			<Banner>
-				<img src={logo} alt='logo-la-maison-jungle' className='lmj-logo' />
-				<h1 className='lmj-title'>WELCOME TO MY HOOD</h1>
+				
+				<h1 className='lmj-title'>Le Magazin de BACHAAAAAR</h1>
 			</Banner>
 			<div className='lmj-layout-inner'>
 				

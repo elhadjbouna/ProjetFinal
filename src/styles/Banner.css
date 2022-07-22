@@ -7,10 +7,12 @@
 	justify-content: flex-end;
 	flex-direction: row;
 	align-items: center;
+	background-color: blue;
 }
 
 .lmj-title {
 	padding-left: 32px;
+	text-align: center;
 }
 
 .lmj-logo {

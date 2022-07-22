@@ -38,3 +38,8 @@
 .lmj-cart-closed > button {
 	color: black;
 }
+
+.fix{
+	position: fixed;
+
+}

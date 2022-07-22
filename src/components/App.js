@@ -34,7 +34,7 @@ function App() {
 		<div>
 			<Banner>
 				
-				<h1 className='lmj-title'>Le Magazin de BACHAAAAAR</h1>
+				<h1 className='lmj-title'>Le Magasin de BACHAAAAAR</h1>
 			</Banner>
 			<div className='lmj-layout-inner'>
 				
